@@ -5,7 +5,7 @@ public class FloatTypeCasting {
         int number = (int)numberToBeRounded;
         float numbeer = (float) number;
         float numbeeeer = numberToBeRounded - numbeer;
-        if(numbeeeer/(0.5) > 1) {
+        if(numbeeeer/(0.5) >= 1) {
             number +=1;
             System.out.println(number);
         }
