@@ -34,6 +34,6 @@ class IntegerTypeCastingTest extends BaseIOTest {
                         line.contains("first") || line.contains("second"))
                 .collect(Collectors.toList());
         assertEquals(1, castedRows.size());
-        assertEquals(4, twoNames.size());
+        assertEquals(3, twoNames.size());
     }
 }
